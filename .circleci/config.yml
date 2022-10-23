@@ -449,7 +449,7 @@ jobs:
       - checkout
       - run:
           name: Test grid generation
-          command: jupyter run examples/notebooks/grid_generation.ipynb
+          command: jupyter run examples/notebooks/test.ipynb
       - run:
           name: Test initial condition definition
           command: jupyter run examples/notebooks/initial_condition_definition.ipynb
